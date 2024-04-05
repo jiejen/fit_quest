@@ -1,2 +1,0 @@
-1	Harsh	Paswan	Harsh.Paswan@gmail.com	safepassword123
-2	Sneha	Shrinivas	Sneha.Shrinivas@gmail.com	safepassword456
