@@ -1,0 +1,819 @@
+1,Beef Brain,143,1.05,10.3,10.86
+2,Beef Brisket Flat Half,277,0,22.18,17.94
+3,Beef Brisket Point Half,267,0.59,20.98,17.65
+4,Beef Brisket Whole,253,0.56,19.06,18.42
+5,Beef Carcass,291,0,24.05,17.32
+6,Beef Chuck Arm Pot Roast,244,0,17.98,19.23
+7,Beef Chuck Blade Roast,248,0,19.41,17.16
+8,Beef Chuck Shoulder Clod - Shoulder Tender - Medallion,144,0,6.22,20.54
+9,Beef Chuck Shoulder Clod - Shoulder Top - Center Steak,141,0,5.88,20.67
+10,Beef Chuck Shoulder Clod - Top Blade - Steak,176,0,10.52,18.99
+11,Beef Composite Of Trimmed Retail Cuts,215,0,14.42,20.01
+12,Beef Cured Breakfast Strip,406,0.7,38.8,12.5
+13,Beef Cured Corned Beef Brisket,198,0.14,14.9,14.68
+14,Beef Flank Steak,155,0,7.17,21.22
+15,Beef Ground Grass-fed,198,0,12.73,19.42
+16,Beef Heart,112,0.14,3.94,17.72
+17,Beef Kidney,99,0.29,3.09,17.4
+18,Beef Liver,135,3.89,3.63,20.36
+19,Beef Lungs,92,0,2.5,16.2
+20,Beef Mechanically Separated,276,0,23.52,14.97
+21,Beef Pancreas,235,0,18.6,15.7
+22,Beef Rib Shortribs,390,0.4,36.23,14.4
+23,Beef Rib Whole (Ribs 6-12),306,0,26.1,16.53
+24,Beef Rib - Eye - Small End (Ribs 10-12) Ribeye,274,0,22.07,17.51
+25,Beef Rib - Large End (Ribs 6-9),316,0,27.29,16.26
+26,Beef Rib - Small End (Ribs 10-12) Prime Rib,254,0,19.06,19.33
+27,Beef Round Bottom Steak,192,0,11.54,20.7
+28,Beef Round Eye Roast,166,0,8.24,21.49
+29,Beef Round Full Cut,195,0,11.92,20.56
+30,Beef Round Knuckle - Tip Center - Steak,143,0,5.89,20.93
+31,Beef Round Knuckle - Tip Side - Steak,129,0,4,21.69
+32,Beef Round Outside - Bottom - Steak,142,0,5.53,21.59
+33,Beef Round Tip,189,0,11.67,19.6
+34,Beef Round Top Steak,166,0,7.93,22.06
+35,Beef Short Loin - Porterhouse Steak,214,0,14.06,20.49
+36,Beef Short Loin - T-Bone Steak,223,0,15.18,20.11
+37,Beef Short Loin - Top Loin Steak,228,0,15.49,20.61
+38,Beef Shoulder Top Blade Steak Boneless,146,0,7.25,20.16
+39,Beef Sirloin Bottom Tri-tip Roast,165,0,8.55,20.64
+40,Beef Sirloin Top,201,0,12.71,20.3
+41,Beef Spleen,105,0,3,18.3
+42,Beef Suet,854,0,94,1.5
+43,Beef Tenderloin Steak,247,0,18.16,19.61
+44,Beef Thymus,236,0,20.35,12.18
+45,Beef Tongue,224,3.68,16.09,14.9
+46,Beef Tripe,85,0,3.69,12.07
+47,Bison Ground Grass-Fed,146,0.05,7.21,20.23
+48,Chicken Broiler/Fryer Back Meat,137,0,5.92,19.56
+49,Chicken Broiler/Fryer Back Meat+Skin,319,0,28.74,14.05
+50,Chicken Broiler/Fryer Breast Meat,120,0,2.62,22.5
+51,Chicken Broiler/Fryer Breast Meat+Skin,172,0,9.25,20.85
+52,Chicken Broiler/Fryer Dark-Meat Drumstick Meat,116,0,3.71,19.41
+53,Chicken Broiler/Fryer Dark-Meat Meat,125,0,4.31,20.08
+54,Chicken Broiler/Fryer Dark-Meat Meat+Skin,237,0,18.34,16.69
+55,Chicken Broiler/Fryer Dark-Meat Thigh Meat,121,0,4.12,19.66
+56,Chicken Broiler/Fryer Drumstick Meat+Skin,161,0.11,9.2,18.08
+57,Chicken Broiler/Fryer Giblets,124,1.8,4.47,17.88
+58,Chicken Broiler/Fryer Leg Meat,120,0,4.22,19.16
+59,Chicken Broiler/Fryer Leg Meat+Skin,214,0.17,15.95,16.37
+60,Chicken Broiler/Fryer Light-Meat Meat,114,0,1.65,23.2
+61,Chicken Broiler/Fryer Light-Meat Meat+Skin,186,0,11.07,20.27
+62,Chicken Broiler/Fryer Meat,119,0,3.08,21.39
+63,Chicken Broiler/Fryer Meat+Skin,215,0,15.06,18.6
+64,Chicken Broiler/Fryer Meat+Skin+Giblets+Neck,213,0.13,14.83,18.33
+65,Chicken Broiler/Fryer Neck Meat,154,0,8.78,17.55
+66,Chicken Broiler/Fryer Neck Meat+Skin,297,0,26.24,14.07
+67,Chicken Broiler/Fryer Separable Fat,629,0,67.95,3.73
+68,Chicken Broiler/Fryer Skin,349,0,32.35,13.33
+69,Chicken Broiler/Fryer Thigh Meat+Skin,221,0.25,16.61,16.52
+70,Chicken Broiler/Fryer Wing Meat,126,0,3.54,21.97
+71,Chicken Broiler/Fryer Wing Meat+Skin,191,0,12.85,17.52
+72,Chicken Capons Giblets,130,1.42,5.18,18.28
+73,Chicken Capons Meat+Skin,234,0,17.07,18.77
+74,Chicken Capons Meat+Skin+Giblets+Neck,232,0.08,16.9,18.51
+75,Chicken Cornish Game Hens Meat,116,0,3.33,20.04
+76,Chicken Cornish Game Hens Meat+Skin,200,0,14.02,17.15
+77,Chicken Gizzard,94,0,2.06,17.66
+78,Chicken Ground,143,0.04,8.1,17.44
+79,Chicken Heart,153,0.71,9.33,15.55
+80,Chicken Liver,119,0.73,4.83,16.92
+81,Chicken Roasting Dark-Meat Meat,113,0,3.61,18.74
+82,Chicken Roasting Giblets,127,1.14,5.04,18.14
+83,Chicken Roasting Light-Meat Meat,109,0,1.63,22.2
+84,Chicken Roasting Meat,111,0,2.7,20.33
+85,Chicken Roasting Meat+Skin+Giblets+Neck,213,0.09,15.46,17.09
+86,Chicken Stewing Dark-Meat Meat,157,0,8.12,19.7
+87,Chicken Stewing Giblets,168,2.13,9.21,17.89
+88,Chicken Stewing Light-Meat Meat,137,0,4.21,23.1
+89,Chicken Stewing Meat,148,0,6.32,21.26
+90,Chicken Stewing Meat+Skin,258,0,20.33,17.55
+91,Chicken Stewing Meat+Skin+Giblets+Neck,251,0.19,19.52,17.48
+92,Crab Alaska King,84,0,0.6,18.29
+93,Crab Blue,87,0.04,1.08,18.06
+94,Crab Dungeness,86,0.74,0.97,17.41
+95,Crab Queen,90,0,1.18,18.5
+96,Crayfish Mixed Farmed,72,0,0.97,14.85
+97,Crayfish Mixed Wild,77,0,0.95,15.97
+98,Duck Domesticated Liver,136,3.53,4.64,18.74
+99,Duck Domesticated Meat,135,0.94,5.95,18.28
+100,Duck Domesticated Meat+Skin,404,0,39.34,11.49
+101,Duck Wild Breast Meat,123,0,4.25,19.85
+102,Duck Wild Meat+Skin,211,0,15.2,17.42
+103,Emu Drum Inside,108,0,1.49,22.22
+104,Emu Drum Outside,103,0,0.48,23.08
+105,Emu Fan Fillet,103,0,0.8,22.5
+106,Emu Flat Fillet,102,0,0.74,22.25
+107,Emu Full Rump,112,0,1.64,22.83
+108,Emu Ground,134,0,4.03,22.77
+109,Emu Oyster,141,0,4.86,22.81
+110,Fish Anchovy European,131,0,4.84,20.35
+111,Fish Bass Fresh Water Mixed,114,0,3.69,18.86
+112,Fish Bass Sea Mixed,97,0,2,18.43
+113,Fish Bass Striped,97,0,2.33,17.73
+114,Fish Bluefish,124,0,4.24,20.04
+115,Fish Burbot,90,0,0.81,19.31
+116,Fish Butterfish,146,0,8.02,17.28
+117,Fish Carp,127,0,5.6,17.83
+118,Fish Catfish Channel Farmed,119,0,5.94,15.23
+119,Fish Catfish Channel Wild,95,0,2.82,16.38
+120,Fish Cisco,98,0,1.91,18.99
+121,Fish Cod Atlantic,82,0,0.67,17.81
+122,Fish Cod Pacific,69,0,0.41,15.27
+123,Fish Croaker Atlantic,104,0,3.17,17.78
+124,Fish Cusk,87,0,0.69,18.99
+125,Fish Drum Freshwater,119,0,4.93,17.54
+126,Fish Eel Mixed,184,0,11.66,18.44
+127,Fish Flatfish Flounder/Sole,70,0,1.93,12.41
+128,Fish Grouper Mixed,92,0,1.02,19.38
+129,Fish Haddock,74,0,0.45,16.32
+130,Fish Halibut Atlantic/Pacific,91,0,1.33,18.56
+131,Fish Halibut Greenland,186,0,13.84,14.37
+132,Fish Herring Atlantic,158,0,9.04,17.96
+133,Fish Herring Pacific,195,0,13.88,16.39
+134,Fish Ling,87,0,0.64,18.99
+135,Fish Lingcod,85,0,1.06,17.66
+136,Fish Mackerel Atlantic,205,0,13.89,18.6
+137,Fish Mackerel King,105,0,2,20.28
+138,Fish Mackerel Pacific and Jack Mixed,158,0,7.89,20.07
+139,Fish Mackerel Spanish,139,0,6.3,19.29
+140,Fish Mahimahi,85,0,0.7,18.5
+141,Fish Milkfish,148,0,6.73,20.53
+142,Fish Monkfish,76,0,1.52,14.48
+143,Fish Mullet Striped,117,0,3.79,19.35
+144,Fish Ocean Perch Atlantic,79,0,1.54,15.31
+145,Fish Paste,99,6.85,0.9,15.18
+146,Fish Perch Mixed,91,0,0.92,19.39
+147,Fish Pike Northern,88,0,0.69,19.26
+148,Fish Pike Walleye,93,0,1.22,19.14
+149,Fish Pollock Alaska,76,0,0.82,17.17
+150,Fish Pollock Atlantic,92,0,0.98,19.44
+151,Fish Pompano Florida,164,0,9.47,18.48
+152,Fish Pout Ocean,79,0,0.91,16.64
+153,Fish Rockfish Pacific Mixed,90,0,1.34,18.36
+154,Fish Roe Mixed,143,1.5,6.42,22.32
+155,Fish Roughy Orange,76,0,0.7,16.41
+156,Fish Sablefish,195,0,15.3,13.41
+157,Fish Salmon Atlantic Farmed,208,0,13.42,20.42
+158,Fish Salmon Atlantic Wild,142,0,6.34,19.84
+159,Fish Salmon Chinook,179,0,10.43,19.93
+160,Fish Salmon Chum,120,0,3.77,20.14
+161,Fish Salmon Coho Farmed,160,0,7.67,21.27
+162,Fish Salmon Coho Wild,146,0,5.93,21.62
+163,Fish Salmon Pink,127,0,4.4,20.5
+164,Fish Salmon Sockeye,131,0,4.69,22.25
+165,Fish Scup,105,0,2.73,18.88
+166,Fish Seatrout Mixed,104,0,3.61,16.74
+167,Fish Shad American,197,0,13.77,16.93
+168,Fish Shark Mixed,130,0,4.51,20.98
+169,Fish Sheepshead,108,0,2.41,20.21
+170,Fish Smelt Rainbow,97,0,2.42,17.63
+171,Fish Snapper Mixed,100,0,1.34,20.51
+172,Fish Spot,123,0,4.9,18.51
+173,Fish Sturgeon Mixed,105,0,4.04,16.14
+174,Fish Sucker White,92,0,2.32,16.76
+175,Fish Sunfish Pumpkin Seed,89,0,0.7,19.4
+176,Fish Swordfish,144,0,6.65,19.66
+177,Fish Tilapia,96,0,1.7,20.08
+178,Fish Tilefish,96,0,2.31,17.5
+179,Fish Trout Mixed,148,0,6.61,20.77
+180,Fish Trout Rainbow Farmed,141,0,6.18,19.94
+181,Fish Trout Rainbow Wild,119,0,3.46,20.48
+182,Fish Tuna Bluefin,144,0,4.9,23.33
+183,Fish Tuna Skipjack,103,0,1.01,22
+184,Fish Tuna Yellowfin,109,0,0.49,24.4
+185,Fish Turbot European,95,0,2.95,16.05
+186,Fish Whitefish Mixed,134,0,5.86,19.09
+187,Fish Whiting Mixed,90,0,1.31,18.31
+188,Fish Wolfish Atlantic,96,0,2.39,17.5
+189,Fish Yellowtail Mixed,146,0,5.24,23.14
+190,Frog Legs,73,0,0.3,16.4
+191,Game Meat Antelope,114,0,2.03,22.38
+192,Game Meat Bear,161,0,8.3,20.1
+193,Game Meat Beaver,146,0,4.8,24.05
+194,Game Meat Beefalo,143,0,4.8,23.3
+195,Game Meat Bison Ground,223,0,15.93,18.67
+196,Game Meat Boar,122,0,3.33,21.51
+197,Game Meat Caribou,127,0,3.36,22.63
+198,Game Meat Deer,120,0,2.42,22.96
+199,Game Meat Deer Ground,157,0,7.13,21.78
+200,Game Meat Elk,111,0,1.45,22.95
+201,Game Meat Elk Ground,172,0,8.82,21.76
+202,Game Meat Goat,109,0,2.31,20.6
+203,Game Meat Horse,133,0,4.6,21.39
+204,Game Meat Moose,102,0,0.74,22.24
+205,Game Meat Muskrat,162,0,8.1,20.76
+206,Game Meat Rabbit Domesticated,136,0,5.55,20.05
+207,Game Meat Rabbit Wild,114,0,2.32,21.79
+208,Game Meat Squirrel,120,0,3.21,21.23
+209,Game Meat Water Buffalo,99,0,1.37,20.39
+210,Goose Domesticated Meat,161,0,7.13,22.75
+211,Goose Domesticated Meat+Skin,371,0,33.62,15.86
+212,Goose Liver,133,6.32,4.28,16.37
+213,Guinea Hen Meat,110,0,2.47,20.64
+214,Guinea Hen Meat+Skin,158,0,6.45,23.4
+215,Lamb Brain,122,0,8.58,10.4
+216,Lamb Composite of Trimmed Retail Cuts,267,0,21.59,16.88
+217,Lamb Foreshank,201,0,13.38,18.91
+218,Lamb Ground,282,0,23.41,16.56
+219,Lamb Heart,122,0.21,5.68,16.47
+220,Lamb Kidney,97,0.82,2.95,15.74
+221,Lamb Leg Shank Half,201,0,13.49,18.58
+222,Lamb Leg Sirloin Half,272,0,22.11,16.94
+223,Lamb Leg Whole,230,0,17.07,17.91
+224,Lamb Liver,139,1.78,5.02,20.38
+225,Lamb Loin,310,0,26.63,16.32
+226,Lamb Lungs,95,0,2.6,16.7
+227,Lamb Mechanically Separated,276,0,23.54,14.97
+228,Lamb Pancreas,152,0,9.82,14.84
+229,Lamb Rib,372,0,34.39,14.52
+230,Lamb Shoulder Arm,260,0,20.9,16.79
+231,Lamb Shoulder Blade,259,0,20.86,16.63
+232,Lamb Shoulder Whole,264,0,21.45,16.58
+233,Lamb Spleen,101,0,3.1,17.2
+234,Lamb Tongue,222,0,17.17,15.7
+235,Lobster Northern,77,0,0.75,16.52
+236,Lobster Spiny Mixed,112,2.43,1.51,20.6
+237,Mollusk Abalone Mixed,105,6.01,0.76,17.1
+238,Mollusk Clam Mixed,86,3.57,0.96,14.67
+239,Mollusk Cuttlefish Mixed,79,0.82,0.7,16.24
+240,Mollusk Mussel Blue,86,3.69,2.24,11.9
+241,Mollusk Octopus,82,2.2,1.04,14.91
+242,Mollusk Oyster Eastern Farmed,59,5.53,1.55,5.22
+243,Mollusk Oyster Eastern Wild,51,2.72,1.71,5.71
+244,Mollusk Oyster Pacific,81,4.95,2.3,9.45
+245,Mollusk Scallop Mixed,69,3.18,0.49,12.06
+246,Mollusk Snail,90,2,1.4,16.1
+247,Mollusk Squid Mixed,92,3.08,1.38,15.58
+248,Mollusk Whelk,137,7.76,0.4,23.84
+249,Ostrich Fan,117,0,2.65,21.81
+250,Ostrich Ground,165,0,8.7,20.22
+251,Ostrich Leg Inside,111,0,1.72,22.39
+252,Ostrich Leg Outside,115,0,1.96,22.86
+253,Ostrich Oyster,125,0,3.67,21.55
+254,Ostrich Round,116,0,2.4,21.99
+255,Ostrich Strip Inside,127,0,2.87,23.69
+256,Ostrich Strip Outside,120,0,2.21,23.36
+257,Ostrich Tenderloin,123,0,3.19,22.07
+258,Ostrich Tip Trimmed,114,0,2.3,21.85
+259,Ostrich Top Loin,119,0,2.95,21.67
+260,Pheasant Breast Meat,133,0,3.25,24.37
+261,Pheasant Leg Meat,134,0,4.3,22.2
+262,Pheasant Meat,133,0,3.64,23.57
+263,Pheasant Meat+Skin,181,0,9.29,22.7
+264,Pork Cured Bacon,393,0,37.13,13.66
+265,Pork Cured Breakfast Strips,388,0.7,37.16,11.74
+266,Pork Cured Ham Center Slice Country-Style,203,0.05,12.9,20.17
+267,Pork Cured Ham Rump Bone-In,176,0.52,9.38,22.27
+268,Pork Cured Ham Shank Bone-In,177,0.41,9.85,21.61
+269,Pork Cured Ham Slice Bone-In,173,0.21,9.17,22.45
+270,Pork Cured Ham Whole Bone-In,246,0.06,18.52,18.49
+271,Pork Cured Salt Pork,748,0,80.5,5.05
+272,Pork Cured Shoulder Blade Roll,269,0,21.98,16.47
+273,Pork Fresh Backfat,812,0,88.69,2.92
+274,Pork Fresh Backribs,224,0,16.33,19.07
+275,Pork Fresh Belly,518,0,53.01,9.34
+276,Pork Fresh Brain,127,0,9.21,10.28
+277,Pork Fresh Carcass,376,0,35.07,13.91
+278,Pork Fresh Chitterlings,182,0,16.61,7.64
+279,Pork Fresh Composite of Trimmed Leg - Loin - Shoulder - Spareribs,211,0,14.79,18.22
+280,Pork Fresh Composite of Trimmed Retail Cuts Leg - Loin - Shoulder - Spareribs,216,0,14.95,18.95
+281,Pork Fresh Composite of Trimmed Retail Cuts Loin - Shoulder Blade,177,0,10.14,20.08
+282,Pork Fresh Ears,234,0.6,15.1,22.45
+283,Pork Fresh Feet,212,0,12.59,23.16
+284,Pork Fresh Ground,263,0,21.19,16.88
+285,Pork Fresh Heart,118,1.33,4.36,17.27
+286,Pork Fresh Jowl,655,0,69.61,6.38
+287,Pork Fresh Kidneys,100,0,3.25,16.46
+288,Pork Fresh Leaf Fat,857,0,94.16,1.76
+289,Pork Fresh Leg Ham Rump Half,182,0,10.63,20.27
+290,Pork Fresh Leg Ham Shank Half,193,0,11.96,19.87
+291,Pork Fresh Leg Ham Whole,245,0,18.87,17.43
+292,Pork Fresh Liver,134,2.47,3.65,21.39
+293,Pork Fresh Loin Blade Bone-In,194,0,12.27,19.56
+294,Pork Fresh Loin Center Loin Bone-In,170,0,9.03,20.71
+295,Pork Fresh Loin Center Loin Boneless,201,0,12.96,21.14
+296,Pork Fresh Loin Center Rib Bone-In,186,0,11.04,20.28
+297,Pork Fresh Loin Center Rib Boneless,211,0,14.01,19.9
+298,Pork Fresh Loin Country-style Ribs,189,0,11.82,19.34
+299,Pork Fresh Loin Sirloin Bone-In,168,0,8.96,20.48
+300,Pork Fresh Loin Sirloin Boneless,133,0,4.05,22.49
+301,Pork Fresh Loin Tenderloin,120,0,3.53,20.65
+302,Pork Fresh Loin Top Boneless Chops,155,0,6.94,21.55
+303,Pork Fresh Loin Top Boneless Roasts,166,0,8.33,21.34
+304,Pork Fresh Loin Whole,198,0,12.58,19.74
+305,Pork Fresh Lungs,85,0,2.72,14.08
+306,Pork Fresh Mechanically Separated,304,0,26.54,15.03
+307,Pork Fresh Pancreas,199,0,13.24,18.56
+308,Pork Fresh Separable Fat,632,0,65.7,9.25
+309,Pork Fresh Shoulder Arm Picnic,193,0,12.51,18.71
+310,Pork Fresh Shoulder Blade,186,0,12.36,17.42
+311,Pork Fresh Shoulder Whole,236,0,17.99,17.18
+312,Pork Fresh Spareribs,277,0,23.4,15.47
+313,Pork Fresh Spleen,100,0,2.59,17.86
+314,Pork Fresh Stomach,159,0,10.14,16.85
+315,Pork Fresh Tail,378,0,33.5,17.75
+316,Pork Fresh Tongue,225,0,17.2,16.3
+317,Pork Leg Cap Steak Boneless,123,0,3.39,21.64
+318,Pork Leg Sirloin Tip Roast Boneless,113,0,1.71,22.88
+319,Pork Shoulder Breast Boneless,127,0,3.4,22.54
+320,Pork Shoulder Petite Tender Boneless,128,0,3.91,21.65
+321,Poultry MDM From Back & Neck With Skin,272,0,24.73,11.39
+322,Poultry MDM From Back & Neck Without Skin,199,0,15.48,13.79
+323,Poultry MDM From Mature Hens,243,0,19.98,14.72
+324,Quail Breast Meat,123,0,2.99,22.59
+325,Quail Meat,134,0,4.53,21.76
+326,Quail Meat+Skin,192,0,12.05,19.63
+327,Ruffed Grouse Breast Meat Skinless,112,0,0.88,25.94
+328,Shrimp Mixed,85,0,0.51,20.1
+329,Squab Light Meat Without Skin,134,0,4.52,21.76
+330,Squab Meat,142,0,7.5,17.5
+331,Squab Meat+Skin,294,0,23.8,18.47
+332,Turkey Back Meat,113,0.15,2.5,21.28
+333,Turkey Breast Meat+Skin,157,0,7.02,21.89
+334,Turkey Dark-Meat Meat,108,0.15,2.5,21.28
+335,Turkey Dark-Meat Meat+Skin,166,0.15,8.97,19.81
+336,Turkey Gizzard,111,0,3.37,18.8
+337,Turkey Ground,148,0,7.66,19.66
+338,Turkey Heart,140,0.4,7.44,16.7
+339,Turkey Liver,128,0,5.5,18.26
+340,Turkey MDM From Turkey Frames,201,0,15.96,13.29
+341,Turkey Meat+Skin+Leg,144,0,6.72,19.54
+342,Turkey Meat+Skin+Wing,197,0,12.32,20.22
+343,Turkey Whole Giblets,124,0.07,5.09,18.18
+344,Turkey Whole Light-Meat Meat,114,0.14,1.48,23.66
+345,Turkey Whole Light-Meat Meat+Skin,161,0.15,7.43,21.96
+346,Turkey Whole Meat,115,0.14,1.93,22.64
+347,Turkey Whole Meat+Skin,144,0.14,5.64,21.64
+348,Turkey Whole Neck Meat,125,0,6.04,16.51
+349,Turkey Whole Skin,407,0.16,38.93,12.96
+350,Turtle Green,89,0,0.5,19.8
+351,Veal Brain,118,0,8.21,10.32
+352,Veal Breast Whole Boneless,208,0,14.75,17.47
+353,Veal Composite of Trimmed Retail Cuts,144,0,6.77,19.35
+354,Veal Ground,197,0,13.06,18.58
+355,Veal Heart,110,0.08,3.98,17.18
+356,Veal Kidney,99,0.85,3.12,15.76
+357,Veal Leg Top Round,117,0,3.08,20.98
+358,Veal Liver,140,2.91,4.85,19.93
+359,Veal Loin,177,0.07,10.07,20.07
+360,Veal Lungs,90,0,2.3,16.3
+361,Veal Pancreas,182,0,13.1,15
+362,Veal Rib,162,0,9.01,18.86
+363,Veal Shank,113,0,3.48,19.15
+364,Veal Shoulder Arm,132,0,5.44,19.34
+365,Veal Shoulder Blade Chop,148,0.03,7.61,18.72
+366,Veal Shoulder Whole,130,0,5.28,19.27
+367,Veal Sirloin,152,0,7.81,19.07
+368,Veal Spleen,98,0,2.2,18.3
+369,Veal Thymus,101,0,3.07,17.21
+370,Veal Tongue,131,1.91,5.48,17.18
+371,Amaranth Leaves,23,4.02,0.33,2.46
+372,Arrowhead,99,20.23,0.29,5.33
+373,Artichoke,47,10.51,0.15,3.27
+374,Arugula,25,3.65,0.66,2.58
+375,Asparagus,20,3.88,0.12,2.2
+376,Avocado,160,8.53,14.66,2
+377,Bamboo Shoots,27,5.2,0.3,2.6
+378,Basil,23,2.65,0.64,3.15
+379,Beet Greens,22,4.33,0.13,2.2
+380,Beets,43,9.56,0.17,1.61
+381,Bitter Gourd Leafy Tips,30,3.29,0.69,5.3
+382,Bitter Gourd Pod,17,3.7,0.17,1
+383,Bottle Gourd,14,3.39,0.02,0.62
+384,Broccoli,34,6.64,0.37,2.82
+385,Broccoli Leaves - Stalks - Flower Clusters,28,5.06,0.35,2.98
+386,Brussels Sprouts,43,8.95,0.3,3.38
+387,Cabbage,25,5.8,0.1,1.28
+388,Cabbage Bok Choy,13,2.18,0.2,1.5
+389,Cabbage Napa,16,3.23,0.2,1.2
+390,Cabbage Red,31,7.37,0.16,1.43
+391,Cabbage Savoy,27,6.1,0.1,2
+392,Capsicum Green,20,4.64,0.17,0.86
+393,Capsicum Red,26,6.03,0.3,0.99
+394,Capsicum Yellow,27,6.32,0.21,1
+395,Carrot,41,9.58,0.24,0.93
+396,Carrot Baby,35,8.24,0.13,0.64
+397,Cauliflower,25,4.97,0.28,1.92
+398,Cauliflower Green,31,6.09,0.3,2.95
+399,Celery,14,2.97,0.17,0.69
+400,Chard Swiss,19,3.74,0.2,1.8
+401,Chilli Green,40,9.46,0.2,2
+402,Chilli Red,40,8.81,0.44,1.87
+403,Chives,30,4.35,0.73,3.27
+404,Chrysanthemum Garland,24,3.02,0.56,3.36
+405,Chrysanthemum Leaves,24,3.01,0.56,3.36
+406,Coconut Meat,354,15.23,33.49,3.33
+407,Collard,32,5.42,0.61,3.02
+408,Coriander,23,3.67,0.52,2.13
+409,Corn White,86,19.02,1.18,3.22
+410,Corn Yellow,86,18.7,1.35,3.27
+411,Cowpea (pods + seeds),44,9.5,0.3,3.3
+412,Cowpea Leafy Tips,29,4.82,0.25,4.1
+413,Cowpea Seeds (immature),90,18.83,0.35,2.95
+414,Cucumber (with peel),15,3.63,0.11,0.65
+415,Cucumber (without peel),10,2.16,0.16,0.59
+416,Dandelion Greens,45,9.2,0.7,2.7
+417,Dill Leaves,43,7.02,1.12,3.46
+418,Edamame,109,7.61,4.73,11.22
+419,Eggplant,25,5.88,0.18,0.98
+420,Endive,17,3.35,0.2,1.25
+421,Fava Beans (pods + seeds),88,17.63,0.73,7.92
+422,Fenugreek Leaves,43,7.1,0.75,4.82
+423,French Beans Green,31,6.97,0.22,1.83
+424,French Beans Yellow,31,7.13,0.12,1.82
+425,Garlic,149,33.06,0.5,6.36
+426,Ginger,80,17.77,0.75,1.82
+427,Gooseberry,44,10.18,0.58,0.88
+428,Grape Leaves,93,17.31,2.12,5.6
+429,Hyacinth Bean Seeds (immature),46,9.19,0.2,2.1
+430,Ivy Gourd,18,3.1,0.1,1.2
+431,Jackfruit,95,23.25,0.64,1.72
+432,Jalapeno,29,6.5,0.37,0.91
+433,Kale,35,4.42,1.49,2.92
+434,Kale Chinese,26,4.67,0.76,1.2
+435,Kohlrabi,27,6.2,0.1,1.7
+436,Lambsquarters,43,7.3,0.8,4.2
+437,Leeks,61,14.15,0.3,1.5
+438,Lemon Grass,99,25.31,0.49,1.82
+439,Lemon Juice,22,6.9,0.24,0.35
+440,Lemon Peel,47,16,0.3,1.5
+441,Lettuce Butterhead,13,2.23,0.22,1.35
+442,Lettuce Cos/Romaine,17,3.29,0.3,1.23
+443,Lettuce Green Leaf,15,2.87,0.15,1.36
+444,Lettuce Iceberg,15,2.87,0.15,1.36
+445,Lettuce Red Leaf,13,2.26,0.22,1.33
+446,Lima Bean Seeds (immature),113,20.17,0.86,6.84
+447,Lime,30,10.54,0.2,0.7
+448,Lime Juice,25,8.42,0.07,0.42
+449,Lotus Root,74,17.23,0.1,2.6
+450,Moringa Leaves,64,8.28,1.4,9.4
+451,Moringa Pods,37,8.53,0.2,2.1
+452,Mushroom Chanterelle,32,6.86,0.53,1.49
+453,Mushroom Cremini/Italian,22,4.3,0.1,2.5
+454,Mushroom Enoki,37,7.81,0.29,2.66
+455,Mushroom Maitake,31,6.97,0.19,1.94
+456,Mushroom Morel,31,5.1,0.57,3.12
+457,Mushroom Oyster,33,6.09,0.41,3.31
+458,Mushroom Portobello,22,3.87,0.35,2.11
+459,Mushroom Shiitake,34,6.79,0.49,2.24
+460,Mushroom White,22,3.26,0.34,3.09
+461,Mustard Greens,27,4.67,0.42,2.86
+462,Mustard Spinach,22,3.9,0.3,2.2
+463,Okra,33,7.45,0.19,1.93
+464,Olive Black,105,6.06,9.54,0.88
+465,Olive Green,145,3.84,15.32,1.03
+466,Onion,40,9.34,0.1,1.1
+467,Onion Shallot,72,16.8,0.1,2.5
+468,Onion Spring,32,7.34,0.19,1.83
+469,Onion Sweet,32,7.55,0.08,0.8
+470,Onion Welsh,34,6.5,0.4,1.9
+471,Parsley,36,6.33,0.79,2.97
+472,Parsnip,75,17.99,0.3,1.2
+473,Pea,81,14.45,0.4,5.42
+474,Pea Edible-Podded,42,7.55,0.2,2.8
+475,Pepper Banana,27,5.35,0.45,1.66
+476,Pepper Hungarian,29,6.7,0.41,0.8
+477,Pepper Serrano,32,6.7,0.44,1.74
+478,Pointed Gourd,14,2.1,0,1.6
+479,Potato (with skin),77,17.49,0.09,2.05
+480,Potato Red (with skin),70,15.9,0.14,1.89
+481,Potato Russet (with skin),79,18.07,0.08,2.14
+482,Potato Skin,58,12.44,0.1,2.57
+483,Potato White (with skin),69,15.71,0.1,1.68
+484,Radish,16,3.4,0.1,0.68
+485,Radish Greens,25,5.3,0.1,2.2
+486,Radish Oriental,18,4.1,0.1,0.6
+487,Radish White Icicle,14,2.63,0.1,1.1
+488,Rapini,22,2.85,0.49,3.17
+489,Rhubarb,21,4.54,0.2,0.9
+490,Seaweed Agar,26,6.75,0.03,0.54
+491,Seaweed Irishmoss,49,12.29,0.16,1.51
+492,Seaweed Kelp,43,9.57,0.56,1.68
+493,Seaweed Laver,35,5.11,0.28,5.81
+494,Seaweed Spirulina,26,2.42,0.39,5.92
+495,Seaweed Wakame,45,9.14,0.64,3.03
+496,Snake Gourd,21,4.1,0.3,0.5
+497,Soybean Greens,147,11.05,6.8,12.95
+498,Spinach,23,3.63,0.39,2.86
+499,Spinach New Zealand,14,2.5,0.2,1.5
+500,Spinach Vine,19,3.4,0.3,1.8
+501,Spiny Gourd,28,3,1,2
+502,Sponge Gourd,20,4.35,0.2,1.2
+503,Squash Indian,26,5.64,0.2,0.52
+504,Squash Summer All,16,3.35,0.18,1.21
+505,Squash Summer Crookneck/Straightneck,19,3.88,0.27,1.01
+506,Squash Summer Scallop,18,3.84,0.2,1.2
+507,Squash Winter Acorn,40,10.42,0.1,0.8
+508,Squash Winter All,34,8.59,0.13,0.95
+509,Squash Winter Butternut,45,11.69,0.1,1
+510,Squash Winter Hubbard,40,8.7,0.5,2
+511,Squash Winter Pumpkin,26,6.5,0.1,1
+512,Squash Winter Pumpkin Flowers,15,3.28,0.07,1.03
+513,Squash Winter Pumpkin Leaves,19,2.33,0.4,3.15
+514,Squash Winter Spaghetti,31,6.91,0.57,0.64
+515,Squash Winter Zucchini (with skin),17,3.11,0.32,1.21
+516,Squash Winter Zucchini Baby,21,3.11,0.4,2.71
+517,Sweet Potato,86,20.12,0.05,1.57
+518,Sweet Potato Leaves,42,8.82,0.51,2.49
+519,Taro Leaves,42,6.7,0.74,4.98
+520,Taro Roots,112,26.46,0.2,1.5
+521,Taro Shoots,14,3.2,0.08,0.73
+522,Taro Tahitian,44,6.91,0.97,2.79
+523,Thyme,101,24.45,1.68,5.56
+524,Tomato Green,23,5.1,0.2,1.2
+525,Tomato Orange,16,3.18,0.19,1.16
+526,Tomato Red,18,3.89,0.2,0.88
+527,Tomato Yellow,15,2.98,0.26,0.98
+528,Turnip,28,6.43,0.1,0.9
+529,Turnip Greens,32,7.13,0.3,1.5
+530,Turnip Prairie,156,35.67,0.36,2.62
+531,Waterchestnut,97,23.94,0.1,1.4
+532,Watercress,11,1.29,0.1,2.3
+533,Wax Gourd,13,3,0.2,0.4
+534,Yam,118,27.88,0.17,1.53
+535,Yardlong Beans,47,8.35,0.4,2.8
+536,Butter,717,0.06,81.11,0.85
+537,Butter Almond,614,18.82,55.5,20.96
+538,Butter Cashew,587,27.57,49.41,17.56
+539,Butter Clarified,876,0,99.48,0.28
+540,Butter Cocoa,884,0,100,0
+541,Butter Nutmeg,884,0,100,0
+542,Butter Oil,876,0,99.48,0.28
+543,Butter Peanut Smooth,588,23.98,49.54,21.93
+544,Butter Sesame Paste,586,24.05,50.87,18.08
+545,Butter Sesame Tahini,595,21.19,53.76,17
+546,Butter Sunflower,617,23.32,55.2,17.28
+547,Butter Ucuhuba,884,0,100,0
+548,Buttermilk,62,4.88,3.31,3.21
+549,Cheese Blue,353,2.34,28.74,21.4
+550,Cheese Brick,371,2.79,29.68,23.24
+551,Cheese Brie,334,0.45,27.68,20.75
+552,Cheese Camembert,300,0.46,24.26,19.8
+553,Cheese Caraway,376,3.06,29.2,25.18
+554,Cheese Cheddar,403,3.37,33.31,22.87
+555,Cheese Cheshire,387,4.78,30.6,23.37
+556,Cheese Colby,394,2.57,32.11,23.76
+557,Cheese Cottage Creamed,98,3.38,4.3,11.12
+558,Cheese Cream,350,5.52,34.44,6.15
+559,Cheese Edam,357,1.43,28.57,24.99
+560,Cheese Feta,265,3.88,21.49,14.21
+561,Cheese Fontina,389,1.55,31.14,25.6
+562,Cheese Gjetost,373,0.68,30.28,24.48
+563,Cheese Goat Hard,452,2.17,35.59,30.52
+564,Cheese Goat Semisoft,364,0.12,29.84,21.58
+565,Cheese Goat Soft,264,0,21.08,18.52
+566,Cheese Gouda,356,2.22,27.44,24.94
+567,Cheese Gruyere,413,0.36,32.34,29.81
+568,Cheese Limburger,327,0.49,27.25,20.05
+569,Cheese Mexican Anejo,373,4.63,29.98,21.44
+570,Cheese Mexican Asadero,356,4.13,25,22.6
+571,Cheese Mexican Chihuahua,374,5.56,29.68,21.56
+572,Cheese Monterey,373,0.68,30.28,24.48
+573,Cheese Mozzarella,299,2.4,22.14,22.17
+574,Cheese Muenster,368,1.12,30.04,23.41
+575,Cheese Neufchatel,253,3.59,22.78,9.15
+576,Cheese Parmesan Hard,392,3.22,25,35.75
+577,Cheese Port Salut,352,0.57,28.2,23.78
+578,Cheese Provolone,351,2.14,26.62,25.58
+579,Cheese Ricotta,150,7.27,10.18,7.54
+580,Cheese Romano,387,3.63,26.94,31.8
+581,Cheese Roquefort,369,2,30.64,21.54
+582,Cheese Swiss,393,1.44,30.99,26.96
+583,Cheese Tilsit,340,1.88,25.98,24.41
+584,Coconut Water,19,3.71,0.2,0.72
+585,Cream Half and Half,131,4.3,11.5,3.13
+586,Cream Heavy Whipping,340,2.84,36.08,2.84
+587,Cream Light,195,3.66,19.1,2.96
+588,Cream Light Whipping,292,2.96,30.91,2.17
+589,Cream Sour,198,4.63,19.35,2.44
+590,Egg Chicken,143,0.72,9.51,12.56
+591,Egg Duck,185,1.45,13.77,12.81
+592,Egg Goose,185,1.35,13.27,13.87
+593,Egg Quail,158,0.41,11.09,13.05
+594,Egg Turkey,171,1.15,11.88,13.68
+595,Kefir,52,7.34,0.92,3.59
+596,Milk Almond,15,0.58,1.1,0.59
+597,Milk Coconut,230,5.54,23.84,2.29
+598,Milk Cow,61,4.8,3.25,3.15
+599,Milk Cow Lactose Free,61,4.8,3.25,3.15
+600,Milk Goat,69,4.45,4.14,3.56
+601,Milk Human,70,6.89,4.38,1.03
+602,Milk Indian Buffalo,97,5.18,6.89,3.75
+603,Milk Rice,47,9.17,0.97,0.28
+604,Milk Sheep,108,5.36,7,5.98
+605,Milk Soy,43,4.92,1.47,2.6
+606,Tofu Regular,76,1.87,4.78,8.08
+607,Tofu Firm,144,2.78,8.72,17.27
+608,Tofu Firm (nigari),78,2.85,4.17,9.04
+609,Tofu Soft (nigari),61,1.18,3.69,7.17
+610,Whey Acid,24,5.12,0.09,0.76
+611,Whey Sweet,27,5.14,0.36,0.85
+612,Yogurt,61,4.66,3.25,3.47
+613,Yogurt Greek,97,3.98,5,9
+614,Yogurt Tofu,94,15.96,1.8,3.5
+615,Almond Oil,884,0,0,0
+616,Animal Fat/Drippings,841,0,0,0
+617,Apricot Kernel Oil,884,0,0,0
+618,Avocado Oil,884,0,0,0
+619,Babassu Oil,884,0,0,0
+620,Bacon Grease,897,0,0,0
+621,Beef Tallow Fat,902,0,0,0
+622,Butter,717,0,0,0
+623,Butter Clarified,876,0,0,0
+624,Butter Oil,876,0,0,0
+625,Canola Oil,884,0,0,0
+626,Chicken Fat,900,0,0,0
+627,Coconut Oil,892,0,0,0
+628,Corn Oil,900,0,0,0
+629,Cottonseed Oil,884,0,0,0
+630,Cupu Assu Oil,884,0,0,0
+631,Duck Fat,882,0,0,0
+632,ENOVA Oil 80% DAG,884,0,0,0
+633,Fish Oil Cod Liver,902,0,0,0
+634,Fish Oil Herring,902,0,0,0
+635,Fish Oil Menhaden,902,0,0,0
+636,Fish Oil Salmon,902,0,0,0
+637,Fish Oil Sardine,902,0,0,0
+638,Flaxseed Oil,884,0,0,0
+639,Goose Fat,900,0,0,0
+640,Grapeseed Oil,884,0,0,0
+641,Hazelnut Oil,884,0,0,0
+642,Lard,902,0,0,0
+643,Mustard Oil,884,0,0,0
+644,Oat Oil,884,0,0,0
+645,Olive Oil,884,0,0,0
+646,Palm Oil,884,0,0,0
+647,Palm Kernel Oil,862,0,0,0
+648,Peanut Oil,884,0,0,0
+649,Poppyseed Oil,884,0,0,0
+650,Rice Bran Oil,884,0,0,0
+651,Safflower Oil Linoleic 70%+,884,0,0,0
+652,Safflower Oil Oleic 70%+,884,0,0,0
+653,Sesame Oil,884,0,0,0
+654,Sheanut Oil,884,0,0,0
+655,Soybean Oil,884,0,0,0
+656,Soybean Lecithin Oil,763,0,0,0
+657,Sunglower High Oleic 70%+,884,0,0,0
+658,Sunflower Linoleic 65%,884,0,0,0
+659,Sunflower Linoleic 60%-,884,0,0,0
+660,Teaseed Oil,884,0,0,0
+661,Tomatoseed Oil,884,0,0,0
+662,Turkey Fat,900,0,0,0
+663,Walnut Oil,884,0,0,0
+664,Wheat Germ Oil,884,0,0,0
+665,Acorn Dried,509,53.66,31.41,8.1
+666,Almond,579,21.55,49.93,21.15
+667,Apricot Dried,241,62.64,0.51,3.39
+668,Beechnut Dried,576,33.5,50,6.2
+669,Brazil Nut Dried,659,11.74,67.1,14.32
+670,Breadnut Tree Seed Dried,367,79.39,1.68,8.62
+671,Cashew,553,30.19,43.85,18.22
+672,Chestnut Chinese Dried,363,79.76,1.81,6.82
+673,Chestnut European Dried (with peel),374,77.31,4.45,6.39
+674,Chestnut European Dried (without peel),369,78.43,3.91,5.01
+675,Chestnut Japanese Dried,360,81.43,1.24,5.25
+676,Chia Seed,486,42.12,30.74,16.54
+677,Coconut Meat Dried,660,23.65,64.53,6.88
+678,Dates Deglet Noor,282,75.03,0.39,2.45
+679,Dates Medjool,277,74.97,0.15,1.81
+680,Flaxseed,534,28.88,42.16,18.29
+681,Ginkgo Nut Dried,348,72.45,2,10.35
+682,Hazelnut Filbert,628,16.7,60.75,14.95
+683,Hempseed,553,8.67,48.75,31.56
+684,Hickorynut,657,18.25,64.37,12.72
+685,Lotus Seed Dried,332,64.47,1.97,15.41
+686,Macadamia Nut,718,13.82,75.77,7.91
+687,Peanut,567,16.13,49.24,25.8
+688,Peanut Spanish,570,15.83,49.6,26.15
+689,Peanut Valencia,570,20.91,47.58,25.09
+690,Peanut Virginia,563,16.54,48.75,25.19
+691,Pecan,691,13.86,71.97,9.17
+692,Pilinut,719,3.98,79.55,10.8
+693,Pine Nut,673,13.08,68.37,13.69
+694,Pine Nut Pinyon,629,19.3,60.98,11.57
+695,Pistachio Nut,560,27.17,45.32,20.16
+696,Pumpkin Seed Kernel,559,10.71,49.05,30.23
+697,Raisin Dark Seedless,299,79.32,0.25,3.3
+698,Raisin Golden Seedless,301,80.02,0.2,3.28
+699,Raisin Seeded,296,78.47,0.54,2.52
+700,Safflower Seed Kernel,517,34.29,38.45,16.18
+701,Sesame Seed Kernel,631,11.73,61.21,20.45
+702,Sesame Seed Whole,573,23.45,49.67,17.73
+703,Sunflower Seed Kernel,584,20,51.46,20.78
+704,Walnut,654,13.71,65.21,15.23
+705,Walnut Black,619,9.58,59.33,24.06
+706,Walnut White,612,12.05,56.98,24.9
+707,Waterchestnut,97,23.94,0.1,1.4
+708,Watermelon Seed Kernel,557,15.31,47.37,28.33
+709,Abiyuch,69,17.6,0.1,1.5
+710,Acerola,32,7.69,0.3,0.4
+711,Acorn,387,40.75,23.86,6.15
+712,Apple,52,13.81,0.17,0.26
+713,Apple Crab,76,19.95,0.3,0.4
+714,Apple Granny Smith,58,13.61,0.19,0.44
+715,Apple Rose,25,5.7,0.3,0.6
+716,Apricot,48,11.12,0.39,1.4
+717,Avocado,160,8.53,14.66,2
+718,Banana,89,22.84,0.33,1.09
+719,Blackberry,43,9.61,0.49,1.39
+720,Blueberry,57,14.49,0.33,0.74
+721,Boysenberry,50,12.19,0.26,1.1
+722,Breadfruit,103,27.12,0.23,1.07
+723,Breadfruit Seed,191,29.24,5.59,7.4
+724,Carambola,31,6.73,0.33,1.04
+725,Cherry Sour,50,12.18,0.3,1
+726,Cherry Sweet,63,16.01,0.2,1.06
+727,Chestnut Chinese,224,49.07,1.11,4.2
+728,Chestnut European (with peel),213,45.54,2.26,2.42
+729,Chestnut European (without peel),196,44.17,1.25,1.63
+730,Chestnut Japanese,154,34.91,0.53,2.25
+731,Clementine,47,12.02,0.15,0.85
+732,Coconut Meat,354,15.23,33.49,3.33
+733,Cranberry,46,11.97,0.13,0.46
+734,Currant Black,63,15.38,0.41,1.4
+735,Currant Red - White,56,13.8,0.2,1.4
+736,Custard Apple,101,25.2,0.6,1.7
+737,Custard Apple Cherimoya,75,17.71,0.68,1.57
+738,Dates Deglet Noor,282,75.03,0.39,2.45
+739,Dates Medjool,277,74.97,0.15,1.81
+740,Durian,147,27.09,5.33,1.47
+741,Elderberry,73,18.4,0.5,0.66
+742,Feijoa,61,15.21,0.42,0.71
+743,Fig,74,19.18,0.3,0.75
+744,Gooseberry,44,10.18,0.58,0.88
+745,Grapefruit Pink - Red - White,32,8.08,0.1,0.63
+746,Grapes American Type,67,17.15,0.35,0.63
+747,Grapes European Type,69,18.1,0.16,0.72
+748,Grapes Muscadine,57,13.93,0.47,0.81
+749,Guava,68,14.32,0.95,2.55
+750,Guava Strawberry,69,17.36,0.6,0.58
+751,Jackfruit,95,23.25,0.64,1.72
+752,Jujube,79,20.23,0.2,1.2
+753,Kiwifruit,61,14.66,0.52,1.14
+754,Kumquat,71,15.9,0.86,1.88
+755,Lemon Juice,22,6.9,0.24,0.35
+756,Lemon Peel,47,16,0.3,1.5
+757,Lime,30,10.54,0.2,0.7
+758,Lime Juice,25,8.42,0.07,0.42
+759,Litchi,66,16.53,0.44,0.83
+760,Loganberry,55,13.02,0.31,1.52
+761,Longan,60,15.14,0.1,1.31
+762,Loquat,47,12.14,0.2,0.43
+763,Lotus Seed,89,17.28,0.53,4.13
+764,Mamey Apple,51,12.5,0.5,0.5
+765,Mango,60,14.98,0.38,0.82
+766,Melon Cantaloupe,34,8.16,0.19,0.84
+767,Melon Casaba,28,6.58,0.1,1.11
+768,Melon Honeydew,36,9.09,0.14,0.54
+769,Mulberry,43,9.8,0.39,1.44
+770,Oheloberry,28,6.84,0.22,0.38
+771,Olive Black,105,6.06,9.54,0.88
+772,Olive Green,145,3.84,15.32,1.03
+773,Opuntia,41,9.57,0.51,0.73
+774,Orange,47,11.75,0.12,0.94
+775,Orange Navel,49,12.54,0.15,0.91
+776,Orange Peel,97,25,0.2,1.5
+777,Orange Tangerine,53,13.34,0.31,0.81
+778,Papaya,43,10.82,0.26,0.47
+779,Passion Fruit Purple,97,23.38,0.7,2.2
+780,Peach Yellow,39,9.54,0.25,0.91
+781,Peach Nectarine,44,10.55,0.32,1.06
+782,Pear,57,15.23,0.14,0.36
+783,Pear Asian,42,10.65,0.23,0.5
+784,Pear Bartlett,63,15.01,0.16,0.39
+785,Pear Bosc,67,16.1,0.09,0.36
+786,Pear Green Anjou,66,15.79,0.1,0.44
+787,Pear Red Anjou,62,14.94,0.14,0.33
+788,Persimmon,70,18.59,0.19,0.58
+789,Physalis,53,11.2,0.7,1.9
+790,Pineapple,45,11.82,0.13,0.55
+791,Pineapple Extra Sweet,51,13.5,0.11,0.53
+792,Pitanga,33,7.49,0.4,0.8
+793,Plantain Green,152,36.66,0.07,1.25
+794,Plantain Yellow,122,31.89,0.35,1.3
+795,Plum,46,11.42,0.28,0.7
+796,Plum Java,60,15.56,0.23,0.72
+797,Pomegranate,83,18.7,1.17,1.67
+798,Pummelo,38,9.62,0.04,0.76
+799,Quince,57,15.3,0.1,0.4
+800,Raspberry,52,11.94,0.65,1.2
+801,Rhubarb,21,4.54,0.2,0.9
+802,Roselle,49,11.31,0.64,0.96
+803,Rowal,111,23.9,2,2.3
+804,Sapodilla,83,19.96,1.1,0.44
+805,Sapotes,124,32.1,0.46,1.45
+806,Soursop,66,16.84,0.3,1
+807,Strawberry,32,7.68,0.3,0.67
+808,Sweetsop,94,23.64,0.29,2.06
+809,Tamarind,239,62.5,0.6,2.8
+810,Watermelon,30,7.55,0.15,0.61
+811,Cooked White Rice,130,28,0.3,2.7
+812,Cooked Brown Rice,111,23,0.9,2.6
+813,White Bread,111,49,3.2,9
+814,Whole-wheat Bread,247,41,3.4,13
+815,Mult-grain Bread,265,43,4.2,13.4
+816,Spaghetti ,220,43,1.29,8
+817,Whole Wheat Spaghetti,172,37,0.76,7.4
+818,Macaroni,157,31,0.92,5.8
+819,Fresh Pasta (Cooked),131,25,1.05,5.2
