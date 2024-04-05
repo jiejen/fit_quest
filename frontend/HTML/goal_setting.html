@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Setting - Fitness Tracking App</title>
+    <!-- You can include CSS files here if needed -->
+    <link rel="stylesheet" href="path/to/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="goal_setting.html">Goal Setting</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Goal Setting</h1>
+        <form action="process_goal_setting.php" method="post">
+            <label for="goal_name">Goal Name:</label>
+            <input type="text" id="goal_name" name="goal_name" required>
+
+            <label for="goal_type">Goal Type:</label>
+            <select id="goal_type" name="goal_type" required>
+                <option value="">Select Goal Type</option>
+                <option value="weight_loss">Weight Loss</option>
+                <option value="muscle_gain">Muscle Gain</option>
+                <option value="endurance">Endurance</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="target_value">Target Value:</label>
+            <input type="number" id="target_value" name="target_value" required>
+
+            <label for="target_date">Target Date:</label>
+            <input type="date" id="target_date" name="target_date" required>
+
+            <button type="submit">Set Goal</button>
+        </form>
+
+        <!-- You can include a section to display the set goals and progress here -->
+    </main>
+
+    <footer>
+        <p>&copy; Fitness Tracking App</p>
+    </footer>
+
+    <!-- You can include JavaScript files here if needed -->
+    <script src="path/to/scripts.js"></script>
+</body>
+</html>
