@@ -22,13 +22,13 @@
         <h1>Register</h1>
         <form action="registration.php" method="post">
             First Name: <br>
-            <input type="text" name="fname" required> <br> <br>
+            <input type="text" name="fname" pattern="[A-Za-z]+" title="Only letters allowed" required> <br> <br>
 	        Last Name: <br>
-            <input type="text" name="lname" required> <br> <br>
+            <input type="text" name="lname" pattern="[A-Za-z]+" title="Only letters allowed" required> <br> <br>
             Email <br>
-            <input type="text" name="email" required> <br> <br>
+            <input type="email" name="email" required> <br> <br>
             Password <br>
-            <input type="password" name="password" required> <br> <br>
+            <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{4,}" title="Must have a lowercase letter, uppercase letter, digit, and special character" required> <br> <br>
             User Type <br>
             <select id="user-type" name="user-type" required>
                 <option value="">Select</option>
@@ -36,9 +36,9 @@
                 <option value="trainer">Trainer</option>
             </select> <br> <br>
             Weight (in kg) <br>
-            <input type="number" name="weight" required> <br> <br>
+            <input type="number" name="weight" min="0" step="5" required> <br> <br>
             Height (in cm) <br>
-            <input type="number" name="height" required> <br> <br>
+            <input type="number" name="height" min="0" step="5" required> <br> <br>
             <br>
             <br>
             <button type="submit">Register</button>
