@@ -20,7 +20,9 @@
 
     <main>
         <h1>Login</h1>
-        <form action="process_login.php" method="post">
+        <div id="error-message"></div>
+        <br>
+        <form action="login.php" method="post">
             Email: <br>
             <input type="text" name="email" required> <br> <br>
             Password <br>
@@ -29,6 +31,15 @@
             <br>
             <button type="submit">Login</button>
         </form>
+
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const error = urlParams.get('error');
+    
+            if (error === 'invalid_credentials') {
+                document.getElementById('error-message').innerHTML = "Invalid email or password. Please try again.";
+            }
+        </script>
     </main>
 
     <footer>
