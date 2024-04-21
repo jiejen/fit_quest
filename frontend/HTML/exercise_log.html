@@ -22,22 +22,14 @@
     <main>
         <h1>Exercise Log</h1>
         <form action="process_exercise_log.php" method="post">
-            <label for="exercise_id">Exercise ID:</label>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <input type="text" id="exercise_id" name="exercise_id" required>
-		<br /><br />
-            <label for="date">Date:</label>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <input type="date" id="date" name="date" required>
-		<br /><br />
-            <label for="duration">Duration (minutes):</label>
-&nbsp&nbsp
-            <input type="number" id="duration" name="duration" required>
-		<br /><br />
-            <label for="calories_burned">Calories Burned:</label>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp	
-            <input type="number" id="calories_burned" name="calories_burned" required>
-		<br /><br />
+            Exercise Name: <br>
+            <input type="text" name="exercise_name" required> <br> <br>
+            Date: <br>
+            <input type="date" name="date" required> <br> <br>
+            Weight: <br>
+            <input type="number" name="weight" required> <br> <br>
+            <br>
+            <br>
             <button type="submit">Log Exercise</button>
         </form>
 

@@ -20,42 +20,31 @@
 
     <main>
         <h1>Register</h1>
-        <form action="process_registration.php" method="post">
-            <label for="name">Name:</label>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <input type="text" id="name" name="name" required>
-	    <br />
-	    <label for="name">Username:</label>
-&nbsp&nbsp&nbsp
-            <input type="text" id="name" name="username" required>
-		&nbsp&nbsp&nbsp<br />
-	    <label for="name">Password:</label>
-&nbsp&nbsp&nbsp&nbsp
-            <input type="text" id="name" name="password" required>
-		
-            <br />
-            <label for="age">Age:</label>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <input type="number" id="age" name="age" required>
-		&nbsp&nbsp&nbsp<br />
-            <label for="weight">Weight (kg):</label>
-&nbsp
-            <input type="number" id="weight" name="weight" step="0.1" required>
-		&nbsp&nbsp&nbsp<br />
-            <label for="height">Height (cm):</label>
-&nbsp
-            <input type="number" id="height" name="height" required>
-	    <br />
-	    <br />
-	    <br />
-            <label for="fitness_goals">Fitness Goals:</label>
-&nbsp 
-            <textarea id="fitness_goals" name="fitness_goals"></textarea>
-
-<br />
-<br />
+        <form action="registration.php" method="post">
+            First Name: <br>
+            <input type="text" name="fname" required> <br> <br>
+	        Last Name: <br>
+            <input type="text" name="lname" required> <br> <br>
+            Email <br>
+            <input type="text" name="email" required> <br> <br>
+            Password <br>
+            <input type="password" name="password" required> <br> <br>
+            User Type <br>
+            <select id="user-type" name="user-type" required>
+                <option value="">Select</option>
+                <option value="client">Client</option>
+                <option value="trainer">Trainer</option>
+            </select> <br> <br>
+            Weight (in kg) <br>
+            <input type="number" name="weight" required> <br> <br>
+            Height (in cm) <br>
+            <input type="number" name="height" required> <br> <br>
+            <br>
+            <br>
             <button type="submit">Register</button>
         </form>
+        <br>
+        <br>
     </main>
 
     <footer>
