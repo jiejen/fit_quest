@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     $db_server = "localhost";
     $db_user = "root";
     $db_pass = "";
@@ -15,9 +17,15 @@
 
     if (mysqli_num_rows($result) == 1) {
         // User exists, redirect to home page or perform further actions
-        header("Location: home.html");
+        $fnamesql = "SELECT first_name FROM sys_user WHERE email = '$email'";
+        $fnameresult = mysqli_query($conn, $fnamesql);
+        if (mysqli_num_rows($fnameresult) > 0){
+            $row = mysqli_fetch_assoc($fnameresult);
+            $fname = $row['first_name'];
+        }
+        $_SESSION['fname'] = $fname;
+        header("Location: navigation.php");
     } else {
-        $error_message = "Invalid email or password. Please try again.";
         header("Location: login.html?error=invalid_credentials");
     }
 

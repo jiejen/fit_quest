@@ -29,7 +29,6 @@
             $row = mysqli_fetch_assoc($result);
             $clientid = $row['user_id'];
         }
-        echo $clientid;
         $clientinfo = "INSERT INTO client_user (client_id, weight, height)
                         VALUES ('$clientid', '$weight', '$height')";
         mysqli_query($conn, $clientinfo);
