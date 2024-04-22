@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise Log - Fitness Tracking App</title>
+    <title>Meal Log - Fitness Tracking App</title>
     <!-- You can include CSS files here if needed -->
     <link rel="stylesheet" href="path/to/styles.css">
 </head>
@@ -28,7 +28,7 @@
 
     <main>
         <?php
-            $fetchsql = "SELECT exercise_name FROM exercise";
+            $fetchsql = "SELECT food_name FROM food";
             $result = mysqli_query($conn, $fetchsql);
             $items = [];
             while ($row = $result->fetch_assoc()) {
@@ -36,13 +36,13 @@
             }
             mysqli_close($conn);
         ?>
-        <h1>Exercise Log</h1>
-        <form action="exercise_log_form.php" method="post">
-            Exercise Name: <br>
-            <select name="exercise">
+        <h1>Meal Log</h1>
+        <form action="meal_log_form.php" method="post">
+            Meal Name: <br>
+            <select name="food">
                 <?php foreach ($items as $item): ?>
-                    <option value="<?php echo $item['exercise_name']; ?>">
-                        <?php echo htmlspecialchars($item['exercise_name']); ?>
+                    <option value="<?php echo $item['food_name']; ?>">
+                        <?php echo htmlspecialchars($item['food_name']); ?>
                     </option>
                 <?php endforeach; ?>
             </select>
@@ -50,14 +50,13 @@
             <br>
             Date: <br>
             <input type="date" name="date" required> <br> <br>
-            Weight: <br>
-            <input type="number" name="weight" min="0" step="5" required> <br> <br>
-            <br>
-            <br>
-            <button type="submit">Log Exercise</button>
+            Servings: <br>
+            <input type="number" name="servings" min="0" required> <br> <br>
+
+            <button type="submit">Log Meal</button>
         </form>
 
-        <!-- You can include a section to display the logged exercises here -->
+        <!-- You can include a section to display the logged meals and nutrition information here -->
     </main>
 
     <footer>

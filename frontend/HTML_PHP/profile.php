@@ -27,21 +27,9 @@ session_start();
         <!-- You can include a section to display the user's profile information here -->
         <section>
             <h2>Personal Information</h2>
-            <p>First Name: <?php echo $_SESSION['fname']; ?></p>
-            <p>Weight: [User Weight]</p>
-            <p>Height: [User Height]</p>
-            <p>Fitness Goals: [User Fitness Goals]</p>
-        </section>
-
-        <!-- You can include other sections or links to navigate to different pages -->
-        <section>
-            <h2>Actions</h2>
-            <ul>
-                <li><a href="exercise_log.html">Log Exercise</a></li>
-                <li><a href="meal_log.html">Log Meal</a></li>
-                <li><a href="goal_setting.html">Set Goals</a></li>
-                <li><a href="progress_tracking.html">Track Progress</a></li>
-            </ul>
+            <p>Name: <?php echo $_SESSION['fname']; ?> <?php echo $_SESSION['lname']; ?></p>
+            <p>Weight: <?php echo $_SESSION['weight']; ?> lb</p>
+            <p>Height: <?php echo $_SESSION['height']; ?> cm</p>
         </section>
     </main>
 

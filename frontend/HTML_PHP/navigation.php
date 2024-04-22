@@ -19,8 +19,11 @@ session_start();
                 <li><a href="navigation.php">Home</a></li>
                 <li><a href="profile.php">Profile</a></li>
                 <li><a href="goal_setting.html">Set Goals</a></li>
-                <li><a href="exercise_log.html">Log Exercises</a></li>
-                <li><a href="meal_log.html">Log Meals</a></li>
+                <li><a href="exercise_log.php">Log Exercises</a></li>
+                <li><a href="meal_log.php">Log Meals</a></li>
+                <li><a href="view_goals.php">View Goals</a></li>
+                <li><a href="view_exercise_log.php">View Exercises</a></li>
+                <li><a href="view_meal_log.php">View Meals</a></li>
             </ul>
         </nav>
     </header>
