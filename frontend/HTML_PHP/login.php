@@ -17,13 +17,14 @@
 
     if (mysqli_num_rows($result) == 1) {
         // User exists, redirect to home page or perform further actions
-        $fnamesql = "SELECT first_name FROM sys_user WHERE email = '$email'";
+        $fnamesql = "SELECT first_name, user_id FROM sys_user WHERE email = '$email'";
         $fnameresult = mysqli_query($conn, $fnamesql);
         if (mysqli_num_rows($fnameresult) > 0){
             $row = mysqli_fetch_assoc($fnameresult);
-            $fname = $row['first_name'];
+            $_SESSION['fname'] = $row['first_name'];
+            $_SESSION['user_id'] = $row['user_id'];
         }
-        $_SESSION['fname'] = $fname;
+
         header("Location: navigation.php");
     } else {
         header("Location: login.html?error=invalid_credentials");

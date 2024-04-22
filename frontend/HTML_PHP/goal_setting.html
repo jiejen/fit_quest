@@ -11,39 +11,23 @@
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="registration.html">Register</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="goal_setting.html">Goal Setting</a></li>
+                <li><a href="navigation.php">Home</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h1>Goal Setting</h1>
-        <form action="process_goal_setting.php" method="post">
-            <label for="goal_name">Goal Name:</label>
-            <input type="text" id="goal_name" name="goal_name" required>
+        <form action="goal.php" method="post">
+            Goal Name: <br>
+            <input type="text" name="goal" required> <br> <br>
 
-            <label for="goal_type">Goal Type:</label>
-            <select id="goal_type" name="goal_type" required>
-                <option value="">Select Goal Type</option>
-                <option value="weight_loss">Weight Loss</option>
-                <option value="muscle_gain">Muscle Gain</option>
-                <option value="endurance">Endurance</option>
-                <option value="other">Other</option>
-            </select>
-
-            <label for="target_value">Target Value:</label>
-            <input type="number" id="target_value" name="target_value" required>
-
-            <label for="target_date">Target Date:</label>
-            <input type="date" id="target_date" name="target_date" required>
-
+            Target Date: <br>
+            <input type="date" name="date" required> <br> <br>
+            <br>
+            <br>
             <button type="submit">Set Goal</button>
         </form>
-
-        <!-- You can include a section to display the set goals and progress here -->
     </main>
 
     <footer>
