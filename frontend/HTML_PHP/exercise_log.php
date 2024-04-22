@@ -1,3 +1,13 @@
+<?php
+    session_start();
+
+    $db_server = "localhost";
+    $db_user = "root";
+    $db_pass = "";
+    $db_name = "fitquest";
+    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,18 +22,32 @@
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="registration.html">Register</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="exercise_log.html">Exercise Log</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <?php
+            $fetchsql = "SELECT exercise_name FROM exercise";
+            $result = mysqli_query($conn, $fetchsql);
+            $items = [];
+            while ($row = $result->fetch_assoc()) {
+                $items[] = $row;
+            }
+            mysqli_close($conn);
+        ?>
         <h1>Exercise Log</h1>
-        <form action="process_exercise_log.php" method="post">
+        <form action="exercise_log_fetch.php" method="post">
             Exercise Name: <br>
-            <input type="text" name="exercise_name" required> <br> <br>
+            <select name="itemDropdown">
+                <?php foreach ($items as $item): ?>
+                    <option value="<?php echo $item['exercise_name']; ?>">
+                        <?php echo htmlspecialchars($item['exercise_name']); ?>
+                    </option>
+                <?php endforeach; ?>
+            </select>
+            <br>
+            <br>
             Date: <br>
             <input type="date" name="date" required> <br> <br>
             Weight: <br>

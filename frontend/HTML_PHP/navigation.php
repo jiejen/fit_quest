@@ -17,7 +17,7 @@ session_start();
         <nav>
             <ul>
                 <li><a href="navigation.php">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="profile.php">Profile</a></li>
                 <li><a href="goal_setting.html">Set Goals</a></li>
                 <li><a href="exercise_log.html">Log Exercises</a></li>
                 <li><a href="meal_log.html">Log Meals</a></li>
@@ -28,7 +28,6 @@ session_start();
     <main>
         <section>
             <h1>Welcome Back <?php echo $_SESSION['fname']; ?>! </h1>
-            <h1>Your UserID is <?php echo $_SESSION['user_id']; ?>! </h1>
         </section>
     </main>
 

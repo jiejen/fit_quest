@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +16,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="profile.html">My Profile</a></li>
+                <li><a href="navigation.php">Home</a></li>
             </ul>
         </nav>
     </header>
@@ -23,8 +27,7 @@
         <!-- You can include a section to display the user's profile information here -->
         <section>
             <h2>Personal Information</h2>
-            <p>Name: [User Name]</p>
-            <p>Age: [User Age]</p>
+            <p>First Name: <?php echo $_SESSION['fname']; ?></p>
             <p>Weight: [User Weight]</p>
             <p>Height: [User Height]</p>
             <p>Fitness Goals: [User Fitness Goals]</p>

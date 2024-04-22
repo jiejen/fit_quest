@@ -24,6 +24,8 @@
             $_SESSION['fname'] = $row['first_name'];
             $_SESSION['user_id'] = $row['user_id'];
         }
+        $clientsql = "SELECT * FROM client_user WHERE client_id = '$email' AND pass_word = '$password'";
+    $result = mysqli_query($conn, $loginsql);
 
         header("Location: navigation.php");
     } else {
