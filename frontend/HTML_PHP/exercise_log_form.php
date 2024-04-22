@@ -12,15 +12,15 @@
     $dt = $_POST["date"];
     $w = $_POST["weight"];
     
-    $idquery = "SELECT * FROM exercise WHERE exercise_id = 1";
-    $result = mysqli_query($conn, $idquery);
-    if (mysqli_num_rows($result) > 0){
-        $row = mysqli_fetch_assoc($result);
-        //$eid = $row['exercise_id'];
-        echo$row['exercise_id'];
-        echo$row['exercise_name'];
-        echo$exercise;
-    }
+    // $idquery = "SELECT * FROM exercise WHERE exercise_id = 1";
+    // $result = mysqli_query($conn, $idquery);
+    // if (mysqli_num_rows($result) > 0){
+    //     $row = mysqli_fetch_assoc($result);
+    //     //$eid = $row['exercise_id'];
+    //     echo$row['exercise_id'];
+    //     echo$row['exercise_name'];
+    //     echo$exercise;
+    // }
 
     $idquery = "SELECT * FROM exercise WHERE exercise_name = '$exercise'";
     $result = mysqli_query($conn, $idquery);
@@ -28,7 +28,7 @@
     if (mysqli_num_rows($result) > 0){
         $row = mysqli_fetch_assoc($result);
         $eid = $row['exercise_id'];
-        echo$row['exercise_name'];
+        // echo$row['exercise_id'];
     }
     
     $formatted_date = date('Y-m-d', strtotime($dt));
@@ -38,7 +38,7 @@
 
     mysqli_query($conn, $addrecord);
 
-    //header("Location: exercise_log.php");
+    header("Location: exercise_log.php");
 
     mysqli_close($conn);
     exit();

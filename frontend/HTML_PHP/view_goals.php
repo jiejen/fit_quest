@@ -29,7 +29,6 @@
     <main>
         <section>
             <h1>View Goals</h1>
-            <p>Here is a list of all of your goals.</p>
         </section>
 
         <?php
@@ -55,9 +54,8 @@
                 echo "</table>";
             } else {
                 // If no meal logs found, display a message
-                echo "No meal logs found for this client.";
+                echo "No meal logs found!";
             }
-            mysqli_close($conn);
         ?>      
         
         <br>
@@ -65,20 +63,29 @@
         <br>
 
         <section>
-            <h1>View Goals</h1>
-            <p>Here is a list of all of your goals.</p>
+            <h1>Complete Goals</h1>
         </section>
 
+        <?php
+            $fetchsql = "SELECT goal_description FROM goal WHERE client_id=$cid";
+            $result = mysqli_query($conn, $fetchsql);
+            $items = [];
+            while ($row = $result->fetch_assoc()) {
+                $items[] = $row;
+            }
+        ?>
+
         <form action="complete_goal.php" method="post">
-            Complete Goals: <br>
-            Date: <br>
-            <input type="date" name="date" required> <br> <br>
-            Servings: <br>
-            <input type="number" name="servings" min="0" required> <br> <br>
-
-            <button type="submit">Log Meal</button>
+            Select which goal you have completed: <br> <br>
+            <select name="goal">
+                <?php foreach ($items as $item): ?>
+                    <option value="<?php echo $item['goal_description']; ?>">
+                        <?php echo htmlspecialchars($item['goal_description']); ?>
+                    </option>
+                <?php endforeach; ?>
+            </select> <br> <br>
+            <button type="submit">Complete Goal</button>
         </form>
-
     </main>
 
     <footer>
