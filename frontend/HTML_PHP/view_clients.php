@@ -22,6 +22,8 @@
         <nav>
             <ul>
                 <li><a href="trainer.php">Home</a></li>
+                <li><a href="view_clients.php">View Clients</a></li>
+                <li><a href="add_clients.php">Add Clients</a></li>
             </ul>
         </nav>
     </header>
