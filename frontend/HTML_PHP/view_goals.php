@@ -47,15 +47,15 @@
 
             if (mysqli_num_rows($result) > 0){
                 // Output table header
-                echo "<table border='1'>";
+                echo "<table border='1' style='width: 50%; border-collapse: collapse;'>";
                 echo "<tr><th>Goal</th><th>Target Date</th></tr>";
 
                 // Loop through each goal record
                 while ($row = mysqli_fetch_assoc($result)) {
                     // Output table rows with goal log details
-                    echo "<tr>";
-                    echo "<td>" . $row['goal_description'] . "</td>";
-                    echo "<td>" . $row['target_date'] . "</td>";
+                    echo "<tr style='background-color: #f2f2f2;'>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['goal_description'] . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['target_date'] . "</td>";
                     echo "</tr>";
                 }
 
