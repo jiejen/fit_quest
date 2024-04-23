@@ -15,13 +15,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Tracking App</title>
     <!-- You can include CSS files here if needed -->
-    <link rel="stylesheet" href="path/to/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="navigation.php">Home</a></li>
+            <li><a href="navigation.php">Home</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="goal_setting.html">Set Goals</a></li>
+                <li><a href="exercise_log.php">Log Exercises</a></li>
+                <li><a href="meal_log.php">Log Meals</a></li>
+                <li><a href="view_goals.php">View Goals</a></li>
+                <li><a href="view_exercise_log.php">View Exercises</a></li>
+                <li><a href="view_meal_log.php">View Meals</a></li>
+                <li><a href="add_exercise.php">Custom Exercise</a></li>
+                <li><a href="add_meal.php">Custom Meal</a></li>
             </ul>
         </nav>
     </header>
@@ -41,9 +50,9 @@
                 echo "<table border='1'>";
                 echo "<tr><th>Goal</th><th>Target Date</th></tr>";
 
-                // Loop through each meal log record
+                // Loop through each goal record
                 while ($row = mysqli_fetch_assoc($result)) {
-                    // Output table rows with meal log details
+                    // Output table rows with goal log details
                     echo "<tr>";
                     echo "<td>" . $row['goal_description'] . "</td>";
                     echo "<td>" . $row['target_date'] . "</td>";
@@ -54,7 +63,7 @@
                 echo "</table>";
             } else {
                 // If no meal logs found, display a message
-                echo "No meal logs found!";
+                echo "No goals left! Congratulations!";
             }
         ?>      
         
@@ -62,7 +71,7 @@
         <br>
         <br>
 
-        <section>
+        <section> 
             <h1>Complete Goals</h1>
         </section>
 
