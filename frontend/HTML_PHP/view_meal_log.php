@@ -48,7 +48,7 @@
 
             if (mysqli_num_rows($result) > 0){
                 // Output table header
-                echo "<table border='1'>";
+                echo "<table border='1' style='width: 50%; border-collapse: collapse;'>";
                 echo "<tr><th>Date</th><th>Food</th><th>Servings</th><th>Calories</th><th>Carbs</th><th>Fats</th><th>Proteins</th></tr>";
 
                 // Loop through each meal log record
@@ -67,14 +67,14 @@
                     }
 
                     // Output table rows with meal log details
-                    echo "<tr>";
-                    echo "<td>" . $row['food_log_date'] . "</td>";
-                    echo "<td>" . $food_name . "</td>";
-                    echo "<td>" . $row['servings'] . "</td>";
-                    echo "<td>" . $food_calories . "</td>";
-                    echo "<td>" . $food_carbs . "</td>";
-                    echo "<td>" . $food_fat. "</td>";
-                    echo "<td>" . $food_protein. "</td>";
+                    echo "<tr style='background-color: #f2f2f2;'>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['food_log_date'] . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $food_name . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['servings'] . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $food_calories . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $food_carbs . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $food_fat. "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $food_protein. "</td>";
                     echo "</tr>";
                 }
 
