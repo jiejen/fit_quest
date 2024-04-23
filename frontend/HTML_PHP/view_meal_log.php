@@ -53,7 +53,7 @@
 
                 // Loop through each meal log record
                 while ($row = mysqli_fetch_assoc($result)) {
-                    $fid = $row['food_log_id'];
+                    $fid = $row['food_id'];
                     $fetchfood = "SELECT * from food WHERE food_id = $fid";
                     $resultfood = mysqli_query($conn, $fetchfood);
 
