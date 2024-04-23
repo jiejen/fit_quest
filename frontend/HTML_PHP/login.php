@@ -12,7 +12,8 @@
     $email = $_POST["email"];
     $password = $_POST["password"];
     
-    $loginsql = "SELECT * FROM login_info WHERE email = '$email' AND pass_word = '$password'";
+    $loginsql = "SELECT * FROM login_info WHERE email = '$email' AND pass_word = '$password'
+    ";
     $result = mysqli_query($conn, $loginsql);
 
     if (mysqli_num_rows($result) == 1) {
