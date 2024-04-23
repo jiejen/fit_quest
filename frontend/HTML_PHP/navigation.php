@@ -10,7 +10,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Tracking App</title>
     <!-- You can include CSS files here if needed -->
-    <link rel="stylesheet" href="path/to/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -24,11 +24,13 @@ session_start();
                 <li><a href="view_goals.php">View Goals</a></li>
                 <li><a href="view_exercise_log.php">View Exercises</a></li>
                 <li><a href="view_meal_log.php">View Meals</a></li>
+                <li><a href="add_exercise.php">Custom Exercise</a></li>
+                <li><a href="add_meal.php">Custom Meal</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main>  
         <section>
             <h1>Welcome Back <?php echo $_SESSION['fname']; ?>! </h1>
         </section>
