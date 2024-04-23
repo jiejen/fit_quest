@@ -16,6 +16,7 @@ session_start();
     <header>
         <nav>
             <ul>
+                <li><a href="trainer.php">Home</a></li>
                 <li><a href="view_clients.php">View Clients</a></li>
                 <li><a href="add_clients.php">Add Clients</a></li>
                 <li style="float:right"><a href="logout.php" >Log Out</a></li>
