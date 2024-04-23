@@ -48,7 +48,8 @@
 
             if (mysqli_num_rows($result) > 0){
                 // Output table header
-                echo "<table border='1'>";
+
+                echo "<table border='1' style='width: 50%; border-collapse: collapse;'>";
                 echo "<tr><th>Date</th><th>Exercise</th><th>Weight</th></tr>";
 
                 // Loop through each exercise log record
@@ -63,10 +64,10 @@
                     }
 
                     // Output table rows with meal log details
-                    echo "<tr>";
-                    echo "<td>" . $row['exercise_log_date'] . "</td>";
-                    echo "<td>" . $exercise_name . "</td>";
-                    echo "<td>" . $row['weight'] . "</td>";
+                    echo "<tr style='background-color: #f2f2f2;'>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['exercise_log_date'] . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $exercise_name . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'>" . $row['weight'] . "</td>";
                     echo "</tr>";
                 }
 
