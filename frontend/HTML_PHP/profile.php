@@ -29,6 +29,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['newWeight'])) {
     $stmt->close();
 }
 
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['newHeight'])) {
+    $newHeight = $_POST['newHeight'];
+    $userId = $_SESSION['user_id']; 
+
+    
+    $stmt = $conn->prepare("UPDATE client_user SET height = ? WHERE client_id = ?");
+    $stmt->bind_param("ii", $newHeight, $userId);
+    $stmt->execute();
+    
+    if ($stmt->affected_rows > 0) {
+        $_SESSION['height'] = $newHeight; 
+        echo '<script>alert("Height updated successfully!")</script>'; 
+    } else {
+        echo '<script>alert("Height update failed!")</script>';     }
+
+    $stmt->close();
+}
+
+
 mysqli_close($conn);
 ?>
 
@@ -53,7 +72,7 @@ mysqli_close($conn);
                 <li><a href="view_exercise_log.php">View Exercises</a></li>
                 <li><a href="view_meal_log.php">View Meals</a></li>
                 <li><a href="add_exercise.php">Custom Exercise</a></li>
-                <li><a href="add_meal.php">Custom Meal</a></li>
+                <li><a href="add_meal.php">Custom Meal</a></li>         
             </ul>
         </nav>
     </header>
@@ -71,6 +90,12 @@ mysqli_close($conn);
                 <label for="newWeight">Update Weight (lb):</label>
                 <input type="number" id="newWeight" min = "3"   name="newWeight" required>
                 <button type="submit">Update Weight</button>
+            </form>
+            <br />
+            <form action="" method="post">
+                <label for="newHeight">Update Height (cm):</label>
+                <input type="number" id="newHeight" min = "3"   name="newHeight" required>
+                <button type="submit">Update Height</button>
             </form>
         </section>
     </main>
