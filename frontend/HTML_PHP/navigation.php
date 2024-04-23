@@ -26,6 +26,8 @@ session_start();
                 <li><a href="view_meal_log.php">View Meals</a></li>
                 <li><a href="add_exercise.php">Custom Exercise</a></li>
                 <li><a href="add_meal.php">Custom Meal</a></li>
+                <li><a href="logout.php">Log Out</a></li>
+
             </ul>
         </nav>
     </header>
@@ -33,6 +35,9 @@ session_start();
     <main>  
         <section>
             <h1>Welcome Back <?php echo $_SESSION['fname']; ?>! </h1>
+            <form action="logout.php" method="post">
+                <button type="submit">Log Out</button>
+            </form>
         </section>
     </main>
 
