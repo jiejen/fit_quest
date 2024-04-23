@@ -91,7 +91,7 @@ mysqli_close($conn);
                 <input type="number" id="newWeight" min = "3"   name="newWeight" required>
                 <button type="submit">Update Weight</button>
             </form>
-            <br />
+            <br /> <br />
             <form action="" method="post">
                 <label for="newHeight">Update Height (cm):</label>
                 <input type="number" id="newHeight" min = "3"   name="newHeight" required>
