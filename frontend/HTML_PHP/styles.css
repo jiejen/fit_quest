@@ -1,3 +1,4 @@
+* {font-family:sans-serif;}
 
 ul {
     list-style-type: none;
@@ -38,7 +39,6 @@ ul {
     cursor: pointer;
     border-radius: 25px;
 }
-
 
 
 
