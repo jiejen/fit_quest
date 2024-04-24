@@ -59,7 +59,7 @@
             <br>
             Date: <br>
             <input type="date" name="date" required> <br> <br>
-            Weight: <br>
+            Weight (lbs): <br>
             <input type="number" name="weight" min="0" step="5" required> <br> <br>
             <br>
             <br>

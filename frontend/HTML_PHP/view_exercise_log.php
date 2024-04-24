@@ -74,8 +74,8 @@
                 // Close the table
                 echo "</table>";
             } else {
-                // If no meal logs found, display a message
-                echo "No meal logs found for this client.";
+                // If no exercise logs found, display a message
+                echo "No exercise logs found for this client.";
             }
             mysqli_close($conn);
         ?>       
