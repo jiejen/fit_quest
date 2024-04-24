@@ -78,7 +78,7 @@ mysqli_close($conn);
 
 
     <footer>
-        <p>&copy; Fitness Tracking App</p>
+        <p>&copy; FitQuest</p>
     </footer>
 
     <script src="path/to/scripts.js"></script>

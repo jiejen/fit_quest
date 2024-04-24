@@ -89,7 +89,7 @@
     </main>
 
     <footer>
-        <p>&copy; Fitness Tracking App</p>
+        <p>&copy; FitQuest</p>
     </footer>
 
     <!-- You can include JavaScript files here if needed -->

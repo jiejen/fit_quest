@@ -67,7 +67,7 @@ $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
     </main>
 
     <footer>
-        <p>&copy; Fitness Tracking App</p>
+        <p>&copy; FitQuest</p>
     </footer>
 
     <script src="path/to/scripts.js"></script>
