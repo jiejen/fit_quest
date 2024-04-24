@@ -23,7 +23,7 @@
                 VALUES ('$fname', '$lname', '$email')";
     mysqli_query($conn, $sysuser);
     
-    if ($usertype = "client"){
+    if ($usertype == "client"){
         $getclientid = "SELECT user_id FROM sys_user WHERE email = '$email'";
         $result = mysqli_query($conn, $getclientid);
         if (mysqli_num_rows($result) > 0){
