@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Fitness Tracking App</title>
+    <!-- You can include CSS files here if needed -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Register</h1>
+        <form action="registration.php" method="post">
+            First Name: <br>
+            <input type="text" name="fname" pattern="[A-Za-z]+" title="Only letters allowed" required> <br> <br>
+	        Last Name: <br>
+            <input type="text" name="lname" pattern="[A-Za-z]+" title="Only letters allowed" required> <br> <br>
+            Email <br>
+            <input type="email" name="email" required> <br> <br>
+            Password <br>
+            <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{4,}" title="Must have a lowercase letter, uppercase letter, digit, and special character" required> <br> <br>
+            User Type <br>
+            <select id="user-type" name="user-type" required>
+                <option value="">Select</option>
+                <option value="client">Client</option>
+                <option value="trainer">Trainer</option>
+            </select> <br> <br>
+            Weight (in kg) <br>
+            <input type="number" name="weight" min="0" required> <br> <br>
+            Height (in cm) <br>
+            <input type="number" name="height" min="0" required> <br> <br>
+            <br>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <p>&copy; Fitness Tracking App</p>
+    </footer>
+
+    <!-- You can include JavaScript files here if needed -->
+    <script src="path/to/scripts.js"></script>
+</body>
+</html>
