@@ -34,7 +34,7 @@ $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
     <main>
         <section>
             <h1>View Meal Log</h1>
-            <p>Here is a list of all of your meals.</p>
+            <p>Here is a list of meals for your clients.</p>
         </section>
         <?php
 
