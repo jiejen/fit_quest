@@ -22,10 +22,11 @@ $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
     <header>
         <nav>
             <ul>
-                <li><a href="trainer.php">Home</a></li>
+            <li><a href="trainer.php">Home</a></li>
                 <li><a href="view_clients.php">View Clients</a></li>
                 <li><a href="add_clients.php">Add Clients</a></li>
                 <li><a href="trainer_view_meal_log.php">Client meal logs</a></li>
+                <li><a href="trainer_view_exercise_log.php">Client exercise logs</a></li>
                 <li style="float:right"><a href="logout.php" >Log Out</a></li>
             </ul>
         </nav>
@@ -34,7 +35,7 @@ $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
     <main>
         <section>
             <h1>View Meal Log</h1>
-            <p>Here is a list of meals for your clients.</p>
+            <p>Here is a list of all your clients meals.</p>
         </section>
         <?php
 
