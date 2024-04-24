@@ -24,6 +24,9 @@
                 <li><a href="trainer.php">Home</a></li>
                 <li><a href="view_clients.php">View Clients</a></li>
                 <li><a href="add_clients.php">Add Clients</a></li>
+                <li><a href="trainer_view_meal_log.php">Client meal logs</a></li>
+                <li><a href="trainer_view_exercise_log.php">Client exercise logs</a></li>
+                <li style="float:right"><a href="logout.php" >Log Out</a></li>
             </ul>
         </nav>
     </header>
@@ -68,7 +71,6 @@
             } else {
                 // If no meal logs found, display a message
                 echo "No clients found for this trainer.";
-                
             }
             mysqli_close($conn);
         ?>      
