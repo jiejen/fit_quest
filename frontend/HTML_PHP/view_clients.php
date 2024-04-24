@@ -68,7 +68,7 @@
             } else {
                 // If no meal logs found, display a message
                 echo "No clients found for this trainer.";
-                echo$result;
+                
             }
             mysqli_close($conn);
         ?>      
