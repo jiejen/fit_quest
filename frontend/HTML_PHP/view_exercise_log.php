@@ -50,7 +50,7 @@
                 // Output table header
 
                 echo "<table border='1' style='width: 50%; border-collapse: collapse;'>";
-                echo "<tr><th>Date</th><th>Exercise</th><th>Weight</th></tr>";
+                echo "<tr><th>Date</th><th>Exercise</th><th>Weight</th><th>Action</th></tr>";
 
                 // Loop through each exercise log record
                 while ($row = mysqli_fetch_assoc($result)) {
@@ -68,14 +68,15 @@
                     echo "<td style='padding: 8px; text-align: center;'>" . $row['exercise_log_date'] . "</td>";
                     echo "<td style='padding: 8px; text-align: center;'>" . $exercise_name . "</td>";
                     echo "<td style='padding: 8px; text-align: center;'>" . $row['weight'] . "</td>";
+                    echo "<td style='padding: 8px; text-align: center;'><form action='delete_exercise.php' method='POST'><input type='hidden' name='exercise_log_id' value='" . $row['exercise_log_id'] . "'><input type='submit' value='Remove' onclick='return confirm(\"Are you sure you want to delete this exercise log?\");'></form></td>";
                     echo "</tr>";
                 }
 
                 // Close the table
                 echo "</table>";
             } else {
-                // If no exercise logs found, display a message
-                echo "No exercise logs found for this client.";
+                // If no meal logs found, display a message
+                echo "No meal logs found for this client.";
             }
             mysqli_close($conn);
         ?>       
