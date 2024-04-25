@@ -22,9 +22,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['newWeight'])) {
 
     $idquote = strpos($newWeight, "'");
     $_SESSION['weight'] = substr($newWeight, 0, $idquote);
+    $res = mysqli_query($conn, "SELECT height FROM client_user WHERE client_id = '$userId'");
+    $items = [];
+    while ($row = $res->fetch_assoc()) {
+        $items[] = $row;
+    }
+    foreach ($items as $item) {
+        $_SESSION['height'] = $item['height'];
+    }
     echo '<script>alert("Weight updated successfully!")</script>';
 }
-
 
 mysqli_close($conn);
 ?>
