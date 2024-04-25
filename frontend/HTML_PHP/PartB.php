@@ -25,20 +25,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['newWeight'])) {
     echo '<script>alert("Weight updated successfully!")</script>';
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $newHeight = $_POST['newHeight'];
-    $userId = $_SESSION['user_id'];
-
-
-    $sqlWeight = "UPDATE client_user SET height = '$newHeight'
-    WHERE client_id = '$userId'";
-    $stmt = mysqli_query($conn, $sqlHeight);
-
-    $idquote = strpos($newHeight, "'");
-    $_SESSION['height'] = substr($newHeight, 0, $idquote);
-    echo '<script>alert("Height updated successfully!")</script>';
-}
-
 
 mysqli_close($conn);
 ?>
@@ -64,7 +50,7 @@ mysqli_close($conn);
                 <li><a href="view_exercise_log.php">View Exercises</a></li>
                 <li><a href="view_meal_log.php">View Meals</a></li>
                 <li><a href="add_exercise.php">Custom Exercise</a></li>
-                <li><a href="add_meal.php">Custom Meal</a></li>
+                <li><a href="add_meal.php">Custom Meal</a></li>         
             </ul>
         </nav>
     </header>
@@ -77,7 +63,7 @@ mysqli_close($conn);
             <p>Name: <?php echo $_SESSION['fname'] . " " . $_SESSION['lname']; ?></p>
             <p>Weight: <?php echo $_SESSION['weight']; ?> lb</p>
             <p>Height: <?php echo $_SESSION['height']; ?> cm</p>
-
+            
             <form action="" method="post">
                 <label for="newWeight">Update Weight (lb):</label>
                 <input type="text" id="newWeight" name="newWeight" required>
@@ -93,7 +79,7 @@ mysqli_close($conn);
     </main>
 
     <footer>
-        <p>&copy; FitQuest</p>
+        <p>&copy; Fitness Tracking App</p>
     </footer>
 
     <script src="path/to/scripts.js"></script>
